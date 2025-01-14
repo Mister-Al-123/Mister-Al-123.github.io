@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSE_GUI.AppCommandFactory
+  commentId: T:BOOSE_GUI.AppCommandFactory
+  id: AppCommandFactory
+  parent: BOOSE_GUI
+  children:
+  - BOOSE_GUI.AppCommandFactory.MakeCommand(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: BOOSE_GUI.AppCommandFactory
+  type: Class
+  source:
+    id: AppCommandFactory
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\Components\CanvasTools\AppCommandFactory.cs
+    startLine: 13
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nClass which returns the command objects\n"
+  example: []
+  syntax:
+    content: 'public class AppCommandFactory : CommandFactory, ICommandFactory'
+    content.vb: >-
+      Public Class AppCommandFactory
+          Inherits CommandFactory
+          Implements ICommandFactory
+  inheritance:
+  - System.Object
+  - BOOSE.CommandFactory
+  implements:
+  - BOOSE.ICommandFactory
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BOOSE_GUI.AppCommandFactory.MakeCommand(System.String)
+  commentId: M:BOOSE_GUI.AppCommandFactory.MakeCommand(System.String)
+  id: MakeCommand(System.String)
+  parent: BOOSE_GUI.AppCommandFactory
+  langs:
+  - csharp
+  - vb
+  name: MakeCommand(String)
+  nameWithType: AppCommandFactory.MakeCommand(String)
+  fullName: BOOSE_GUI.AppCommandFactory.MakeCommand(System.String)
+  type: Method
+  source:
+    id: MakeCommand
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\Components\CanvasTools\AppCommandFactory.cs
+    startLine: 18
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nTakes the command from the Interpreter GUI and returns the correct command\n"
+  example: []
+  syntax:
+    content: public override ICommand MakeCommand(string commandType)
+    parameters:
+    - id: commandType
+      type: System.String
+    return:
+      type: BOOSE.ICommand
+    content.vb: Public Overrides Function MakeCommand(commandType As String) As ICommand
+  overridden: BOOSE.CommandFactory.MakeCommand(System.String)
+  overload: BOOSE_GUI.AppCommandFactory.MakeCommand*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BOOSE_GUI
+  commentId: N:BOOSE_GUI
+  name: BOOSE_GUI
+  nameWithType: BOOSE_GUI
+  fullName: BOOSE_GUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BOOSE.CommandFactory
+  commentId: T:BOOSE.CommandFactory
+  parent: BOOSE
+  isExternal: true
+  name: CommandFactory
+  nameWithType: CommandFactory
+  fullName: BOOSE.CommandFactory
+- uid: BOOSE.ICommandFactory
+  commentId: T:BOOSE.ICommandFactory
+  parent: BOOSE
+  isExternal: true
+  name: ICommandFactory
+  nameWithType: ICommandFactory
+  fullName: BOOSE.ICommandFactory
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE.CommandFactory.MakeCommand(System.String)
+  commentId: M:BOOSE.CommandFactory.MakeCommand(System.String)
+  parent: BOOSE.CommandFactory
+  isExternal: true
+  name: MakeCommand(String)
+  nameWithType: CommandFactory.MakeCommand(String)
+  fullName: BOOSE.CommandFactory.MakeCommand(System.String)
+  spec.csharp:
+  - uid: BOOSE.CommandFactory.MakeCommand(System.String)
+    name: MakeCommand
+    nameWithType: CommandFactory.MakeCommand
+    fullName: BOOSE.CommandFactory.MakeCommand
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.CommandFactory.MakeCommand(System.String)
+    name: MakeCommand
+    nameWithType: CommandFactory.MakeCommand
+    fullName: BOOSE.CommandFactory.MakeCommand
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE_GUI.AppCommandFactory.MakeCommand*
+  commentId: Overload:BOOSE_GUI.AppCommandFactory.MakeCommand
+  name: MakeCommand
+  nameWithType: AppCommandFactory.MakeCommand
+  fullName: BOOSE_GUI.AppCommandFactory.MakeCommand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand

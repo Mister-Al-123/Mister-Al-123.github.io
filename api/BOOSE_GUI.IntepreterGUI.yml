@@ -1,0 +1,638 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSE_GUI.IntepreterGUI
+  commentId: T:BOOSE_GUI.IntepreterGUI
+  id: IntepreterGUI
+  parent: BOOSE_GUI
+  children:
+  - BOOSE_GUI.IntepreterGUI.#ctor
+  - BOOSE_GUI.IntepreterGUI.components
+  - BOOSE_GUI.IntepreterGUI.debug_box
+  - BOOSE_GUI.IntepreterGUI.Dispose(System.Boolean)
+  - BOOSE_GUI.IntepreterGUI.Factory
+  - BOOSE_GUI.IntepreterGUI.findButton
+  - BOOSE_GUI.IntepreterGUI.findButton_Click(System.Object,EventArgs)
+  - BOOSE_GUI.IntepreterGUI.InitializeComponent
+  - BOOSE_GUI.IntepreterGUI.inputBox
+  - BOOSE_GUI.IntepreterGUI.MyCanvas
+  - BOOSE_GUI.IntepreterGUI.outputBox
+  - BOOSE_GUI.IntepreterGUI.outputBox_Paint(System.Object,PaintEventArgs)
+  - BOOSE_GUI.IntepreterGUI.Parser
+  - BOOSE_GUI.IntepreterGUI.Program
+  - BOOSE_GUI.IntepreterGUI.resetButton
+  - BOOSE_GUI.IntepreterGUI.resetButton_Click(System.Object,EventArgs)
+  - BOOSE_GUI.IntepreterGUI.runButton
+  - BOOSE_GUI.IntepreterGUI.runClick(System.Object,EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: IntepreterGUI
+  nameWithType: IntepreterGUI
+  fullName: BOOSE_GUI.IntepreterGUI
+  type: Class
+  source:
+    id: IntepreterGUI
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 5
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class IntepreterGUI : Form'
+    content.vb: >-
+      Public Class IntepreterGUI
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BOOSE_GUI.IntepreterGUI.MyCanvas
+  commentId: F:BOOSE_GUI.IntepreterGUI.MyCanvas
+  id: MyCanvas
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: MyCanvas
+  nameWithType: IntepreterGUI.MyCanvas
+  fullName: BOOSE_GUI.IntepreterGUI.MyCanvas
+  type: Field
+  source:
+    id: MyCanvas
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 7
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: ICanvas MyCanvas
+    return:
+      type: BOOSE.ICanvas
+    content.vb: MyCanvas As ICanvas
+- uid: BOOSE_GUI.IntepreterGUI.Factory
+  commentId: F:BOOSE_GUI.IntepreterGUI.Factory
+  id: Factory
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: Factory
+  nameWithType: IntepreterGUI.Factory
+  fullName: BOOSE_GUI.IntepreterGUI.Factory
+  type: Field
+  source:
+    id: Factory
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 8
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: CommandFactory Factory
+    return:
+      type: BOOSE.CommandFactory
+    content.vb: Factory As CommandFactory
+- uid: BOOSE_GUI.IntepreterGUI.Program
+  commentId: F:BOOSE_GUI.IntepreterGUI.Program
+  id: Program
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: Program
+  nameWithType: IntepreterGUI.Program
+  fullName: BOOSE_GUI.IntepreterGUI.Program
+  type: Field
+  source:
+    id: Program
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 9
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: StoredProgram Program
+    return:
+      type: BOOSE.StoredProgram
+    content.vb: Program As StoredProgram
+- uid: BOOSE_GUI.IntepreterGUI.Parser
+  commentId: F:BOOSE_GUI.IntepreterGUI.Parser
+  id: Parser
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: IntepreterGUI.Parser
+  fullName: BOOSE_GUI.IntepreterGUI.Parser
+  type: Field
+  source:
+    id: Parser
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 10
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: Parser Parser
+    return:
+      type: BOOSE.Parser
+    content.vb: Parser As Parser
+- uid: BOOSE_GUI.IntepreterGUI.#ctor
+  commentId: M:BOOSE_GUI.IntepreterGUI.#ctor
+  id: '#ctor'
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: IntepreterGUI()
+  nameWithType: IntepreterGUI.IntepreterGUI()
+  fullName: BOOSE_GUI.IntepreterGUI.IntepreterGUI()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 14
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nThe GUI with an input box and bitmap\n"
+  example: []
+  syntax:
+    content: public IntepreterGUI()
+    content.vb: Public Sub New
+  overload: BOOSE_GUI.IntepreterGUI.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BOOSE_GUI.IntepreterGUI.runClick(System.Object,EventArgs)
+  commentId: M:BOOSE_GUI.IntepreterGUI.runClick(System.Object,EventArgs)
+  id: runClick(System.Object,EventArgs)
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: runClick(Object, EventArgs)
+  nameWithType: IntepreterGUI.runClick(Object, EventArgs)
+  fullName: BOOSE_GUI.IntepreterGUI.runClick(System.Object, EventArgs)
+  type: Method
+  source:
+    id: runClick
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 26
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: void runClick(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Sub runClick(sender As Object, e As EventArgs)
+  overload: BOOSE_GUI.IntepreterGUI.runClick*
+- uid: BOOSE_GUI.IntepreterGUI.outputBox_Paint(System.Object,PaintEventArgs)
+  commentId: M:BOOSE_GUI.IntepreterGUI.outputBox_Paint(System.Object,PaintEventArgs)
+  id: outputBox_Paint(System.Object,PaintEventArgs)
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: outputBox_Paint(Object, PaintEventArgs)
+  nameWithType: IntepreterGUI.outputBox_Paint(Object, PaintEventArgs)
+  fullName: BOOSE_GUI.IntepreterGUI.outputBox_Paint(System.Object, PaintEventArgs)
+  type: Method
+  source:
+    id: outputBox_Paint
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 53
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: void outputBox_Paint(object sender, PaintEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: PaintEventArgs
+    content.vb: Sub outputBox_Paint(sender As Object, e As PaintEventArgs)
+  overload: BOOSE_GUI.IntepreterGUI.outputBox_Paint*
+- uid: BOOSE_GUI.IntepreterGUI.findButton_Click(System.Object,EventArgs)
+  commentId: M:BOOSE_GUI.IntepreterGUI.findButton_Click(System.Object,EventArgs)
+  id: findButton_Click(System.Object,EventArgs)
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: findButton_Click(Object, EventArgs)
+  nameWithType: IntepreterGUI.findButton_Click(Object, EventArgs)
+  fullName: BOOSE_GUI.IntepreterGUI.findButton_Click(System.Object, EventArgs)
+  type: Method
+  source:
+    id: findButton_Click
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 60
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: void findButton_Click(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Sub findButton_Click(sender As Object, e As EventArgs)
+  overload: BOOSE_GUI.IntepreterGUI.findButton_Click*
+- uid: BOOSE_GUI.IntepreterGUI.resetButton_Click(System.Object,EventArgs)
+  commentId: M:BOOSE_GUI.IntepreterGUI.resetButton_Click(System.Object,EventArgs)
+  id: resetButton_Click(System.Object,EventArgs)
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: resetButton_Click(Object, EventArgs)
+  nameWithType: IntepreterGUI.resetButton_Click(Object, EventArgs)
+  fullName: BOOSE_GUI.IntepreterGUI.resetButton_Click(System.Object, EventArgs)
+  type: Method
+  source:
+    id: resetButton_Click
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.cs
+    startLine: 86
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: void resetButton_Click(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Sub resetButton_Click(sender As Object, e As EventArgs)
+  overload: BOOSE_GUI.IntepreterGUI.resetButton_Click*
+- uid: BOOSE_GUI.IntepreterGUI.components
+  commentId: F:BOOSE_GUI.IntepreterGUI.components
+  id: components
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: components
+  nameWithType: IntepreterGUI.components
+  fullName: BOOSE_GUI.IntepreterGUI.components
+  type: Field
+  source:
+    id: components
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 10
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nRequired designer variable.\n"
+  example: []
+  syntax:
+    content: IContainer components
+    return:
+      type: System.ComponentModel.IContainer
+    content.vb: components As IContainer
+- uid: BOOSE_GUI.IntepreterGUI.Dispose(System.Boolean)
+  commentId: M:BOOSE_GUI.IntepreterGUI.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: IntepreterGUI.Dispose(Boolean)
+  fullName: BOOSE_GUI.IntepreterGUI.Dispose(System.Boolean)
+  type: Method
+  source:
+    id: Dispose
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 16
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BOOSE_GUI.IntepreterGUI.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BOOSE_GUI.IntepreterGUI.InitializeComponent
+  commentId: M:BOOSE_GUI.IntepreterGUI.InitializeComponent
+  id: InitializeComponent
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: InitializeComponent()
+  nameWithType: IntepreterGUI.InitializeComponent()
+  fullName: BOOSE_GUI.IntepreterGUI.InitializeComponent()
+  type: Method
+  source:
+    id: InitializeComponent
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 31
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nRequired method for Designer support - do not modify\nthe contents of this method with the code editor.\n"
+  example: []
+  syntax:
+    content: void InitializeComponent()
+    content.vb: Sub InitializeComponent
+  overload: BOOSE_GUI.IntepreterGUI.InitializeComponent*
+- uid: BOOSE_GUI.IntepreterGUI.inputBox
+  commentId: F:BOOSE_GUI.IntepreterGUI.inputBox
+  id: inputBox
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: inputBox
+  nameWithType: IntepreterGUI.inputBox
+  fullName: BOOSE_GUI.IntepreterGUI.inputBox
+  type: Field
+  source:
+    id: inputBox
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 127
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: RichTextBox inputBox
+    return:
+      type: RichTextBox
+    content.vb: inputBox As RichTextBox
+- uid: BOOSE_GUI.IntepreterGUI.runButton
+  commentId: F:BOOSE_GUI.IntepreterGUI.runButton
+  id: runButton
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: runButton
+  nameWithType: IntepreterGUI.runButton
+  fullName: BOOSE_GUI.IntepreterGUI.runButton
+  type: Field
+  source:
+    id: runButton
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 128
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: Button runButton
+    return:
+      type: Button
+    content.vb: runButton As Button
+- uid: BOOSE_GUI.IntepreterGUI.outputBox
+  commentId: F:BOOSE_GUI.IntepreterGUI.outputBox
+  id: outputBox
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: outputBox
+  nameWithType: IntepreterGUI.outputBox
+  fullName: BOOSE_GUI.IntepreterGUI.outputBox
+  type: Field
+  source:
+    id: outputBox
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 129
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: PictureBox outputBox
+    return:
+      type: PictureBox
+    content.vb: outputBox As PictureBox
+- uid: BOOSE_GUI.IntepreterGUI.debug_box
+  commentId: F:BOOSE_GUI.IntepreterGUI.debug_box
+  id: debug_box
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: debug_box
+  nameWithType: IntepreterGUI.debug_box
+  fullName: BOOSE_GUI.IntepreterGUI.debug_box
+  type: Field
+  source:
+    id: debug_box
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 130
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: RichTextBox debug_box
+    return:
+      type: RichTextBox
+    content.vb: debug_box As RichTextBox
+- uid: BOOSE_GUI.IntepreterGUI.findButton
+  commentId: F:BOOSE_GUI.IntepreterGUI.findButton
+  id: findButton
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: findButton
+  nameWithType: IntepreterGUI.findButton
+  fullName: BOOSE_GUI.IntepreterGUI.findButton
+  type: Field
+  source:
+    id: findButton
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 131
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: Button findButton
+    return:
+      type: Button
+    content.vb: findButton As Button
+- uid: BOOSE_GUI.IntepreterGUI.resetButton
+  commentId: F:BOOSE_GUI.IntepreterGUI.resetButton
+  id: resetButton
+  parent: BOOSE_GUI.IntepreterGUI
+  langs:
+  - csharp
+  - vb
+  name: resetButton
+  nameWithType: IntepreterGUI.resetButton
+  fullName: BOOSE_GUI.IntepreterGUI.resetButton
+  type: Field
+  source:
+    id: resetButton
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\IntepreterGUI.Designer.cs
+    startLine: 132
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  syntax:
+    content: Button resetButton
+    return:
+      type: Button
+    content.vb: resetButton As Button
+references:
+- uid: BOOSE_GUI
+  commentId: N:BOOSE_GUI
+  name: BOOSE_GUI
+  nameWithType: BOOSE_GUI
+  fullName: BOOSE_GUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE.CommandFactory
+  commentId: T:BOOSE.CommandFactory
+  parent: BOOSE
+  isExternal: true
+  name: CommandFactory
+  nameWithType: CommandFactory
+  fullName: BOOSE.CommandFactory
+- uid: BOOSE.StoredProgram
+  commentId: T:BOOSE.StoredProgram
+  parent: BOOSE
+  isExternal: true
+  name: StoredProgram
+  nameWithType: StoredProgram
+  fullName: BOOSE.StoredProgram
+- uid: BOOSE.Parser
+  commentId: T:BOOSE.Parser
+  parent: BOOSE
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: BOOSE.Parser
+- uid: BOOSE_GUI.IntepreterGUI.#ctor*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.#ctor
+  name: IntepreterGUI
+  nameWithType: IntepreterGUI.IntepreterGUI
+  fullName: BOOSE_GUI.IntepreterGUI.IntepreterGUI
+- uid: BOOSE_GUI.IntepreterGUI.runClick*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.runClick
+  name: runClick
+  nameWithType: IntepreterGUI.runClick
+  fullName: BOOSE_GUI.IntepreterGUI.runClick
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
+- uid: BOOSE_GUI.IntepreterGUI.outputBox_Paint*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.outputBox_Paint
+  name: outputBox_Paint
+  nameWithType: IntepreterGUI.outputBox_Paint
+  fullName: BOOSE_GUI.IntepreterGUI.outputBox_Paint
+- uid: PaintEventArgs
+  commentId: '!:PaintEventArgs'
+  isExternal: true
+  name: PaintEventArgs
+  nameWithType: PaintEventArgs
+  fullName: PaintEventArgs
+- uid: BOOSE_GUI.IntepreterGUI.findButton_Click*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.findButton_Click
+  name: findButton_Click
+  nameWithType: IntepreterGUI.findButton_Click
+  fullName: BOOSE_GUI.IntepreterGUI.findButton_Click
+- uid: BOOSE_GUI.IntepreterGUI.resetButton_Click*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.resetButton_Click
+  name: resetButton_Click
+  nameWithType: IntepreterGUI.resetButton_Click
+  fullName: BOOSE_GUI.IntepreterGUI.resetButton_Click
+- uid: System.ComponentModel.IContainer
+  commentId: T:System.ComponentModel.IContainer
+  parent: System.ComponentModel
+  isExternal: true
+  name: IContainer
+  nameWithType: IContainer
+  fullName: System.ComponentModel.IContainer
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: BOOSE_GUI.IntepreterGUI.Dispose*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.Dispose
+  name: Dispose
+  nameWithType: IntepreterGUI.Dispose
+  fullName: BOOSE_GUI.IntepreterGUI.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BOOSE_GUI.IntepreterGUI.InitializeComponent*
+  commentId: Overload:BOOSE_GUI.IntepreterGUI.InitializeComponent
+  name: InitializeComponent
+  nameWithType: IntepreterGUI.InitializeComponent
+  fullName: BOOSE_GUI.IntepreterGUI.InitializeComponent
+- uid: RichTextBox
+  isExternal: true
+  name: RichTextBox
+  nameWithType: RichTextBox
+  fullName: RichTextBox
+- uid: Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: PictureBox
+  commentId: '!:PictureBox'
+  isExternal: true
+  name: PictureBox
+  nameWithType: PictureBox
+  fullName: PictureBox

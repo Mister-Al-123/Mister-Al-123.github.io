@@ -1,0 +1,787 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSE_GUI.AppWrite
+  commentId: T:BOOSE_GUI.AppWrite
+  id: AppWrite
+  parent: BOOSE_GUI
+  children:
+  - BOOSE_GUI.AppWrite.#ctor
+  - BOOSE_GUI.AppWrite.Execute
+  langs:
+  - csharp
+  - vb
+  name: AppWrite
+  nameWithType: AppWrite
+  fullName: BOOSE_GUI.AppWrite
+  type: Class
+  source:
+    id: AppWrite
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\Components\CanvasTools\AppWrite.cs
+    startLine: 14
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nCommand that takes \n"
+  example: []
+  syntax:
+    content: 'public class AppWrite : CommandOneParameter, ICommand'
+    content.vb: >-
+      Public Class AppWrite
+          Inherits CommandOneParameter
+          Implements ICommand
+  inheritance:
+  - System.Object
+  - BOOSE.Command
+  - BOOSE.CanvasCommand
+  - BOOSE.CommandOneParameter
+  implements:
+  - BOOSE.ICommand
+  inheritedMembers:
+  - BOOSE.CommandOneParameter.param1
+  - BOOSE.CommandOneParameter.param1unprocessed
+  - BOOSE.CommandOneParameter.CheckParameters(System.String[])
+  - BOOSE.CanvasCommand.yPos
+  - BOOSE.CanvasCommand.xPos
+  - BOOSE.CanvasCommand.canvas
+  - BOOSE.CanvasCommand.Canvas
+  - BOOSE.Command.program
+  - BOOSE.Command.parameterList
+  - BOOSE.Command.parameters
+  - BOOSE.Command.paramsint
+  - BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  - BOOSE.Command.Compile
+  - BOOSE.Command.ProcessParameters(System.String)
+  - BOOSE.Command.ToString
+  - BOOSE.Command.Program
+  - BOOSE.Command.Name
+  - BOOSE.Command.ParameterList
+  - BOOSE.Command.Parameters
+  - BOOSE.Command.Paramsint
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BOOSE_GUI.AppWrite.#ctor
+  commentId: M:BOOSE_GUI.AppWrite.#ctor
+  id: '#ctor'
+  parent: BOOSE_GUI.AppWrite
+  langs:
+  - csharp
+  - vb
+  name: AppWrite()
+  nameWithType: AppWrite.AppWrite()
+  fullName: BOOSE_GUI.AppWrite.AppWrite()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\Components\CanvasTools\AppWrite.cs
+    startLine: 19
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nConstructor\n"
+  example: []
+  syntax:
+    content: public AppWrite()
+    content.vb: Public Sub New
+  overload: BOOSE_GUI.AppWrite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BOOSE_GUI.AppWrite.Execute
+  commentId: M:BOOSE_GUI.AppWrite.Execute
+  id: Execute
+  parent: BOOSE_GUI.AppWrite
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: AppWrite.Execute()
+  fullName: BOOSE_GUI.AppWrite.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: C:\Users\Al\source\repos\ase-boose-assignment-Mister-Al-123\main\Components\CanvasTools\AppWrite.cs
+    startLine: 26
+  assemblies:
+  - BOOSE_GUI
+  namespace: BOOSE_GUI
+  summary: "\nTakes parameters, processes them and then outputs them to the canvas\n"
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute
+  overridden: BOOSE.Command.Execute
+  overload: BOOSE_GUI.AppWrite.Execute*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BOOSE_GUI
+  commentId: N:BOOSE_GUI
+  name: BOOSE_GUI
+  nameWithType: BOOSE_GUI
+  fullName: BOOSE_GUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BOOSE.Command
+  commentId: T:BOOSE.Command
+  parent: BOOSE
+  isExternal: true
+  name: Command
+  nameWithType: Command
+  fullName: BOOSE.Command
+- uid: BOOSE.CanvasCommand
+  commentId: T:BOOSE.CanvasCommand
+  parent: BOOSE
+  isExternal: true
+  name: CanvasCommand
+  nameWithType: CanvasCommand
+  fullName: BOOSE.CanvasCommand
+- uid: BOOSE.CommandOneParameter
+  commentId: T:BOOSE.CommandOneParameter
+  parent: BOOSE
+  isExternal: true
+  name: CommandOneParameter
+  nameWithType: CommandOneParameter
+  fullName: BOOSE.CommandOneParameter
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: BOOSE.CommandOneParameter.param1
+  commentId: F:BOOSE.CommandOneParameter.param1
+  parent: BOOSE.CommandOneParameter
+  isExternal: true
+  name: param1
+  nameWithType: CommandOneParameter.param1
+  fullName: BOOSE.CommandOneParameter.param1
+- uid: BOOSE.CommandOneParameter.param1unprocessed
+  commentId: F:BOOSE.CommandOneParameter.param1unprocessed
+  parent: BOOSE.CommandOneParameter
+  isExternal: true
+  name: param1unprocessed
+  nameWithType: CommandOneParameter.param1unprocessed
+  fullName: BOOSE.CommandOneParameter.param1unprocessed
+- uid: BOOSE.CommandOneParameter.CheckParameters(System.String[])
+  commentId: M:BOOSE.CommandOneParameter.CheckParameters(System.String[])
+  parent: BOOSE.CommandOneParameter
+  isExternal: true
+  name: CheckParameters(String[])
+  nameWithType: CommandOneParameter.CheckParameters(String[])
+  fullName: BOOSE.CommandOneParameter.CheckParameters(System.String[])
+  nameWithType.vb: CommandOneParameter.CheckParameters(String())
+  fullName.vb: BOOSE.CommandOneParameter.CheckParameters(System.String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: BOOSE.CommandOneParameter.CheckParameters(System.String[])
+    name: CheckParameters
+    nameWithType: CommandOneParameter.CheckParameters
+    fullName: BOOSE.CommandOneParameter.CheckParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.CommandOneParameter.CheckParameters(System.String[])
+    name: CheckParameters
+    nameWithType: CommandOneParameter.CheckParameters
+    fullName: BOOSE.CommandOneParameter.CheckParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE.CanvasCommand.yPos
+  commentId: F:BOOSE.CanvasCommand.yPos
+  parent: BOOSE.CanvasCommand
+  isExternal: true
+  name: yPos
+  nameWithType: CanvasCommand.yPos
+  fullName: BOOSE.CanvasCommand.yPos
+- uid: BOOSE.CanvasCommand.xPos
+  commentId: F:BOOSE.CanvasCommand.xPos
+  parent: BOOSE.CanvasCommand
+  isExternal: true
+  name: xPos
+  nameWithType: CanvasCommand.xPos
+  fullName: BOOSE.CanvasCommand.xPos
+- uid: BOOSE.CanvasCommand.canvas
+  commentId: F:BOOSE.CanvasCommand.canvas
+  parent: BOOSE.CanvasCommand
+  isExternal: true
+  name: canvas
+  nameWithType: CanvasCommand.canvas
+  fullName: BOOSE.CanvasCommand.canvas
+- uid: BOOSE.CanvasCommand.Canvas
+  commentId: P:BOOSE.CanvasCommand.Canvas
+  parent: BOOSE.CanvasCommand
+  isExternal: true
+  name: Canvas
+  nameWithType: CanvasCommand.Canvas
+  fullName: BOOSE.CanvasCommand.Canvas
+- uid: BOOSE.Command.program
+  commentId: F:BOOSE.Command.program
+  parent: BOOSE.Command
+  isExternal: true
+  name: program
+  nameWithType: Command.program
+  fullName: BOOSE.Command.program
+- uid: BOOSE.Command.parameterList
+  commentId: F:BOOSE.Command.parameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameterList
+  nameWithType: Command.parameterList
+  fullName: BOOSE.Command.parameterList
+- uid: BOOSE.Command.parameters
+  commentId: F:BOOSE.Command.parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameters
+  nameWithType: Command.parameters
+  fullName: BOOSE.Command.parameters
+- uid: BOOSE.Command.paramsint
+  commentId: F:BOOSE.Command.paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: paramsint
+  nameWithType: Command.paramsint
+  fullName: BOOSE.Command.paramsint
+- uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  name: Set(StoredProgram, String)
+  nameWithType: Command.Set(StoredProgram, String)
+  fullName: BOOSE.Command.Set(BOOSE.StoredProgram, System.String)
+  spec.csharp:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    nameWithType: Command.Set
+    fullName: BOOSE.Command.Set
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    nameWithType: StoredProgram
+    fullName: BOOSE.StoredProgram
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    nameWithType: Command.Set
+    fullName: BOOSE.Command.Set
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    nameWithType: StoredProgram
+    fullName: BOOSE.StoredProgram
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE.Command.Compile
+  commentId: M:BOOSE.Command.Compile
+  parent: BOOSE.Command
+  isExternal: true
+  name: Compile()
+  nameWithType: Command.Compile()
+  fullName: BOOSE.Command.Compile()
+  spec.csharp:
+  - uid: BOOSE.Command.Compile
+    name: Compile
+    nameWithType: Command.Compile
+    fullName: BOOSE.Command.Compile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.Command.Compile
+    name: Compile
+    nameWithType: Command.Compile
+    fullName: BOOSE.Command.Compile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE.Command.ProcessParameters(System.String)
+  commentId: M:BOOSE.Command.ProcessParameters(System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  name: ProcessParameters(String)
+  nameWithType: Command.ProcessParameters(String)
+  fullName: BOOSE.Command.ProcessParameters(System.String)
+  spec.csharp:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    nameWithType: Command.ProcessParameters
+    fullName: BOOSE.Command.ProcessParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    nameWithType: Command.ProcessParameters
+    fullName: BOOSE.Command.ProcessParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE.Command.ToString
+  commentId: M:BOOSE.Command.ToString
+  parent: BOOSE.Command
+  isExternal: true
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: BOOSE.Command.ToString()
+  spec.csharp:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    nameWithType: Command.ToString
+    fullName: BOOSE.Command.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    nameWithType: Command.ToString
+    fullName: BOOSE.Command.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE.Command.Program
+  commentId: P:BOOSE.Command.Program
+  parent: BOOSE.Command
+  isExternal: true
+  name: Program
+  nameWithType: Command.Program
+  fullName: BOOSE.Command.Program
+- uid: BOOSE.Command.Name
+  commentId: P:BOOSE.Command.Name
+  parent: BOOSE.Command
+  isExternal: true
+  name: Name
+  nameWithType: Command.Name
+  fullName: BOOSE.Command.Name
+- uid: BOOSE.Command.ParameterList
+  commentId: P:BOOSE.Command.ParameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: ParameterList
+  nameWithType: Command.ParameterList
+  fullName: BOOSE.Command.ParameterList
+- uid: BOOSE.Command.Parameters
+  commentId: P:BOOSE.Command.Parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: Parameters
+  nameWithType: Command.Parameters
+  fullName: BOOSE.Command.Parameters
+- uid: BOOSE.Command.Paramsint
+  commentId: P:BOOSE.Command.Paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: Paramsint
+  nameWithType: Command.Paramsint
+  fullName: BOOSE.Command.Paramsint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE_GUI.AppWrite.#ctor*
+  commentId: Overload:BOOSE_GUI.AppWrite.#ctor
+  name: AppWrite
+  nameWithType: AppWrite.AppWrite
+  fullName: BOOSE_GUI.AppWrite.AppWrite
+- uid: BOOSE.Command.Execute
+  commentId: M:BOOSE.Command.Execute
+  parent: BOOSE.Command
+  isExternal: true
+  name: Execute()
+  nameWithType: Command.Execute()
+  fullName: BOOSE.Command.Execute()
+  spec.csharp:
+  - uid: BOOSE.Command.Execute
+    name: Execute
+    nameWithType: Command.Execute
+    fullName: BOOSE.Command.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BOOSE.Command.Execute
+    name: Execute
+    nameWithType: Command.Execute
+    fullName: BOOSE.Command.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BOOSE_GUI.AppWrite.Execute*
+  commentId: Overload:BOOSE_GUI.AppWrite.Execute
+  name: Execute
+  nameWithType: AppWrite.Execute
+  fullName: BOOSE_GUI.AppWrite.Execute
